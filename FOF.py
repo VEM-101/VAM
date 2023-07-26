@@ -110,7 +110,7 @@ def uaku():
 def FOFALWAYSONFIRE():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "᯾".join(uuid)
-  server = requests.get(f'https://github.com/BANTUBD/BD/blob/main/APPROVAL.txt').text
+  server = requests.get(f'https://github.com/VEM-101/VAM/blob/main/approved.txt').text
   
  
 
@@ -136,7 +136,7 @@ def FOFALWAYSONFIRE():
   time.sleep(1)
   print(f"\033[1;37mChecking Your Key")
   try:
-    httpCaht = requests.get(f"https://github.com/BANTUBD/BD/blob/main/APPROVAL.txt").text
+    httpCaht = requests.get(f"https://github.com/VEM-101/VAM/blob/main/approved.txt").text
     if id in httpCaht:
       print(f"\033[1;32mCongratulations ! Your Key Is Approved");time.sleep(2)
       msg = str(os.geteuid())
@@ -194,9 +194,9 @@ def fucked():
 def ckx():
 	uuid = str(os.geteuid()) + str(os.getlogin())
 	id = "᯾".join(uuid)
-	server = requests.get(f'https://github.com/BANTUBD/BD/blob/main/APPROVAL.txt').text
+	server = requests.get(f'https://github.com/VEM-101/VAM/blob/main/approved.txt').text
 	try:
-		httpCaht = requests.get(f"https://github.com/BANTUBD/BD/blob/main/APPROVAL.txt").text
+		httpCaht = requests.get(f'https://github.com/VEM-101/VAM/blob/main/approved.txt").text
 		if id in httpCaht:
 			msg = str(os.geteuid())
 			pass
