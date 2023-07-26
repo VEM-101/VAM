@@ -196,7 +196,7 @@ def ckx():
 	id = "᯾".join(uuid)
 	server = requests.get(f'https://github.com/VEM-101/VAM/blob/main/approved.txt').text
 	try:
-		httpCaht = requests.get(f'https://github.com/VEM-101/VAM/blob/main/approved.txt").text
+		httpCaht = requests.get(f"https://github.com/VEM-101/VAM/blob/main/approved.txt").text
 		if id in httpCaht:
 			msg = str(os.geteuid())
 			pass
